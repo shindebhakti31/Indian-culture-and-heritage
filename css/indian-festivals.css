@@ -1,0 +1,707 @@
+/* =========================================
+   INDIAN CULTURE & HERITAGE
+   Indian Festivals Page
+   Royal Traditional Theme
+========================================= */
+
+:root {
+    --saffron: #D97706;
+    --gold: #D4AF37;
+    --brown: #3E2723;
+    --cream: #FFF8E7;
+    --green: #1B5E20;
+    --light-cream: #F8EBD0;
+    --text-dark: #35231D;
+    --shadow: 0 8px 25px rgba(62, 39, 35, 0.13);
+}
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--cream);
+    color: var(--text-dark);
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.navbar {
+    width: 100%;
+    min-height: 82px;
+    background: var(--brown);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 5%;
+    gap: 25px;
+    border-bottom: 3px solid var(--gold);
+    position: relative;
+    z-index: 10;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--gold);
+    font-family: 'Cinzel', serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.4;
+    flex-shrink: 0;
+}
+
+.logo small {
+    display: block;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+
+.logo-icon {
+    font-size: 32px;
+    color: var(--gold);
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 7px;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    color: var(--cream);
+    font-size: 12px;
+    font-weight: 500;
+    padding: 9px 10px;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: var(--gold);
+    background: rgba(217, 119, 6, 0.15);
+}
+
+.nav-links a:hover {
+    color: var(--saffron);
+}
+
+/* =========================================
+   HERO SECTION
+========================================= */
+
+.hero {
+    min-height: 570px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    background: var(--brown);
+}
+
+.hero-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        90deg,
+        rgba(30, 16, 10, 0.88),
+        rgba(62, 39, 35, 0.60),
+        rgba(30, 16, 10, 0.82)
+    );
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 850px;
+    padding: 70px 25px;
+    color: var(--cream);
+}
+
+.hero-label {
+    display: inline-block;
+    color: var(--gold);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.hero h1 {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(38px, 6vw, 76px);
+    color: var(--gold);
+    line-height: 1.25;
+    margin-bottom: 15px;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.title-decoration {
+    color: var(--saffron);
+    font-size: 18px;
+    margin: 18px 0;
+    letter-spacing: 4px;
+}
+
+.hero-content p {
+    max-width: 670px;
+    margin: 0 auto 32px;
+    font-size: 16px;
+    color: var(--cream);
+}
+
+.hero-btn {
+    display: inline-block;
+    padding: 14px 30px;
+    background: var(--saffron);
+    color: white;
+    border: 1px solid var(--gold);
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+}
+
+.hero-btn:hover {
+    background: var(--gold);
+    color: var(--brown);
+    transform: translateY(-3px);
+}
+
+/* =========================================
+   COMMON SECTION HEADINGS
+========================================= */
+
+.section-label {
+    display: block;
+    color: var(--saffron);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.section-heading {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 45px;
+    padding: 0 20px;
+}
+
+.section-heading h2,
+.intro-section h2 {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(27px, 4vw, 40px);
+    color: var(--brown);
+    line-height: 1.4;
+}
+
+.gold-line {
+    width: 85px;
+    height: 3px;
+    background: var(--gold);
+    margin: 20px auto;
+    position: relative;
+}
+
+.gold-line::after {
+    content: "✦";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--cream);
+    color: var(--saffron);
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.section-heading > p {
+    font-size: 14px;
+    color: #766258;
+}
+
+/* =========================================
+   INTRODUCTION
+========================================= */
+
+.intro-section {
+    padding: 85px 8%;
+    text-align: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.intro-section > p {
+    max-width: 850px;
+    margin: 25px auto 0;
+    color: #6E5A4E;
+    font-size: 15px;
+    line-height: 2;
+}
+
+/* =========================================
+   FESTIVAL CARDS
+========================================= */
+
+.festivals-section {
+    padding: 80px 6%;
+    background: var(--light-cream);
+    border-top: 1px solid rgba(212, 175, 55, 0.35);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.35);
+}
+
+.festival-grid {
+    max-width: 1250px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 28px;
+}
+
+.festival-card {
+    background: white;
+    border: 1px solid rgba(212, 175, 55, 0.45);
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.festival-card:hover {
+    transform: translateY(-9px);
+    box-shadow: 0 16px 35px rgba(62, 39, 35, 0.20);
+}
+
+.card-image {
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+    background: #E7D5B2;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.festival-card:hover .card-image img {
+    transform: scale(1.08);
+}
+
+.festival-number {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    width: 38px;
+    height: 38px;
+    background: var(--brown);
+    color: var(--gold);
+    border: 1px solid var(--gold);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-family: 'Cinzel', serif;
+    font-size: 13px;
+}
+
+.card-content {
+    padding: 25px 22px;
+}
+
+.festival-tag {
+    display: inline-block;
+    color: var(--saffron);
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 9px;
+}
+
+.card-content h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 21px;
+    color: var(--brown);
+    margin-bottom: 13px;
+    line-height: 1.4;
+}
+
+.card-content p {
+    font-size: 12px;
+    color: #766258;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    color: var(--green);
+    font-size: 12px;
+    font-weight: 600;
+    border-bottom: 1px solid var(--gold);
+    padding-bottom: 4px;
+    transition: 0.3s ease;
+}
+
+.read-more span {
+    color: var(--saffron);
+    font-size: 18px;
+}
+
+.read-more:hover {
+    color: var(--saffron);
+    gap: 15px;
+}
+
+/* =========================================
+   FESTIVAL DETAILS
+========================================= */
+
+.details-section {
+    padding: 85px 7%;
+    background: var(--cream);
+}
+
+.details-grid {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+}
+
+.detail-box {
+    padding: 28px 30px;
+    background: white;
+    border-left: 4px solid var(--gold);
+    border-radius: 4px;
+    box-shadow: 0 5px 18px rgba(62, 39, 35, 0.08);
+    transition: 0.3s ease;
+    scroll-margin-top: 25px;
+}
+
+.detail-box:hover {
+    border-left-color: var(--saffron);
+    transform: translateY(-4px);
+}
+
+.detail-box h3 {
+    font-family: 'Cinzel', serif;
+    color: var(--brown);
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.detail-box p {
+    color: #766258;
+    font-size: 13px;
+    line-height: 1.9;
+}
+
+/* =========================================
+   QUOTE SECTION
+========================================= */
+
+.quote-section {
+    background: var(--brown);
+    padding: 75px 8%;
+    text-align: center;
+    border-top: 3px solid var(--gold);
+    border-bottom: 3px solid var(--gold);
+}
+
+.quote-symbol {
+    color: var(--gold);
+    font-family: Georgia, serif;
+    font-size: 65px;
+    line-height: 1;
+}
+
+.quote-section p {
+    max-width: 850px;
+    margin: 15px auto 20px;
+    color: var(--cream);
+    font-family: 'Cinzel', serif;
+    font-size: clamp(20px, 3vw, 32px);
+    line-height: 1.6;
+}
+
+.quote-section span {
+    color: var(--gold);
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.footer {
+    background: #291914;
+    color: var(--cream);
+    padding: 65px 7% 0;
+}
+
+.footer-content {
+    max-width: 1250px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1.3fr;
+    gap: 55px;
+    padding-bottom: 45px;
+}
+
+.footer-brand h2 {
+    color: var(--gold);
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-brand p,
+.footer-note p {
+    color: #D8C6B4;
+    font-size: 13px;
+    line-height: 2;
+    max-width: 400px;
+}
+
+.footer-links h3,
+.footer-note h3 {
+    font-family: 'Cinzel', serif;
+    color: var(--gold);
+    font-size: 17px;
+    margin-bottom: 18px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.footer-links a {
+    color: #D8C6B4;
+    font-size: 12px;
+    transition: 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: var(--saffron);
+    padding-left: 5px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(212, 175, 55, 0.3);
+    max-width: 1250px;
+    margin: auto;
+    padding: 22px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.footer-bottom p {
+    color: #B9A797;
+    font-size: 11px;
+}
+
+/* =========================================
+   RESPONSIVE DESIGN
+========================================= */
+
+/* Laptop and medium screens */
+
+@media (max-width: 1100px) {
+    .navbar {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .nav-links {
+        justify-content: center;
+    }
+
+    .festival-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+/* Tablet */
+
+@media (max-width: 800px) {
+    .festival-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .details-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr 1fr;
+        gap: 35px;
+    }
+
+    .footer-brand {
+        grid-column: 1 / -1;
+    }
+
+    .hero {
+        min-height: 480px;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 500px) {
+    .navbar {
+        padding: 20px 4%;
+    }
+
+    .logo {
+        font-size: 14px;
+    }
+
+    .logo small {
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+    .logo-icon {
+        font-size: 26px;
+    }
+
+    .nav-links {
+        gap: 5px;
+    }
+
+    .nav-links a {
+        font-size: 11px;
+        padding: 7px 8px;
+    }
+
+    .hero {
+        min-height: 420px;
+    }
+
+    .hero-content {
+        padding: 55px 18px;
+    }
+
+    .hero-label {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+
+    .hero-content p {
+        font-size: 13px;
+    }
+
+    .hero-btn {
+        padding: 12px 20px;
+        font-size: 11px;
+    }
+
+    .intro-section {
+        padding: 60px 6%;
+    }
+
+    .intro-section > p {
+        font-size: 13px;
+    }
+
+    .festivals-section,
+    .details-section {
+        padding: 60px 5%;
+    }
+
+    .festival-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .card-image {
+        height: 240px;
+    }
+
+    .card-content {
+        padding: 23px;
+    }
+
+    .card-content p {
+        font-size: 13px;
+    }
+
+    .detail-box {
+        padding: 23px;
+    }
+
+    .quote-section {
+        padding: 55px 6%;
+    }
+
+    .footer {
+        padding: 50px 6% 0;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .footer-brand {
+        grid-column: auto;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+}
