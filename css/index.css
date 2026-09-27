@@ -62,3 +62,31 @@
 .a{
     display: flex;
 }
+.text-space{
+    margin-bottom: 10px;
+}
+.icon-container{
+display: flex;
+justify-content: center;
+}
+.icon-box{
+    background-color: #3E2723;
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    margin: 30px 20px;
+    
+}
+.icon{
+    color: #D4AF37;
+    margin: 30px  20px;
+    font-size:35px;
+}
+.icon-text{
+    color: #FFF8E7;
+    margin: 10px 10px;
+}
+.icon-text-h{
+    color: #D4AF37;
+    margin: 5px 10px;
+}
