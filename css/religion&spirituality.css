@@ -13,21 +13,15 @@ body {
     background: #FFF8E7;
     color: #3E2723;
 }
-
-
 .navbar {
     background: #3E2723;
     min-height: 70px;
     padding: 12px 5%;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     gap: 20px;
-
     border-bottom: 3px solid #D4AF37;
-
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -64,19 +58,17 @@ body {
 
 .hero {
     min-height: 320px;
-
     background:
-        linear-gradient(rgba(62,39,35,0.78), rgba(62,39,35,0.78)),
+        linear-gradient(
+            rgba(62, 39, 35, 0.78),
+            rgba(62, 39, 35, 0.78)
+        ),
         linear-gradient(135deg, #D97706, #3E2723);
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     text-align: center;
-
     padding: 30px 20px;
-
     border-bottom: 4px solid #D4AF37;
 }
 
@@ -103,7 +95,6 @@ body {
     font-size: 17px;
     line-height: 1.6;
 }
-
 .intro {
     max-width: 800px;
     margin: auto;
@@ -138,62 +129,57 @@ body {
     font-size: 15px;
     line-height: 1.6;
 }
-
-.heritage-section {
+.heritage-section,
+.spirituality-section {
     padding: 10px 6% 45px;
 }
 
-.card-container {
+.card-container,
+.spirituality-container {
     max-width: 1150px;
-    margin: auto;
-
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 22px;
-
-    align-items: start;
+    align-items: stretch;
 }
-
-.heritage-card {
+.heritage-card,
+.spirituality-card,
+.religion-card {
     background: #FFFFFF;
-
     border: 1px solid #D4AF37;
     border-radius: 10px;
-
     padding: 20px;
-
     text-align: center;
-
-    box-shadow: 0 4px 12px rgba(62,39,35,0.12);
-
+    box-shadow: 0 4px 12px rgba(62, 39, 35, 0.12);
     transition: 0.3s;
-
-    height: auto;
-    min-height: 0;
+    min-width: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.heritage-card:hover {
+.heritage-card:hover,
+.spirituality-card:hover,
+.religion-card:hover {
     transform: translateY(-5px);
-
-    box-shadow: 0 9px 20px rgba(62,39,35,0.18);
-
+    box-shadow: 0 9px 20px rgba(62, 39, 35, 0.18);
     border-color: #D97706;
 }
-
-.heritage-card img {
+.heritage-card img,
+.spirituality-card img,
+.religion-card img,
+.card-container img,
+.spirituality-container img {
     display: block;
-
     width: 100%;
-    height: 190px;
-
+    height: 220px;
     object-fit: cover;
-
+    object-position: center;
     border-radius: 7px;
-
-    margin-bottom: 12px;
+    margin: 0 auto 12px;
 }
-
 .card-number {
     color: #D4AF37;
     font-size: 12px;
@@ -204,48 +190,39 @@ body {
 .card-icon {
     width: 55px;
     height: 55px;
-
     margin: 5px auto 12px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     background: #FFF3D6;
-
     border: 2px solid #D4AF37;
-
     border-radius: 50%;
-
     font-size: 25px;
 }
 
-.heritage-card h3 {
+.heritage-card h3,
+.spirituality-card h3,
+.religion-card h3 {
     color: #8D4B20;
     font-size: 21px;
     margin-bottom: 8px;
 }
 
-.heritage-card p {
+.heritage-card p,
+.spirituality-card p,
+.religion-card p {
     color: #5D4037;
-
     font-size: 14px;
-    line-height: 1.5;
-
-    min-height: 0;
-
-    margin-bottom: 8px;
+    line-height: 1.6;
+    margin-bottom: 10px;
 }
 
 .learn-more {
     display: inline-block;
-
-    margin-top: 5px;
-
+    margin-top: auto;
+    padding-top: 8px;
     color: #D97706;
-
     text-decoration: none;
-
     font-size: 14px;
     font-weight: bold;
 }
@@ -253,22 +230,14 @@ body {
 .learn-more:hover {
     color: #3E2723;
 }
-
-
 .quote {
     max-width: 800px;
-
     margin: 0 auto 45px;
-
     padding: 25px;
-
     text-align: center;
-
     background: #3E2723;
-
     border: 2px solid #D4AF37;
     border-radius: 10px;
-
     color: #FFF8E7;
 }
 
@@ -280,54 +249,41 @@ body {
 .quote p {
     font-size: 18px;
     font-style: italic;
+    line-height: 1.6;
     margin: 5px 0;
 }
-
 .footer {
     background: #3E2723;
-
     color: #FFF8E7;
-
     text-align: center;
-
     padding: 25px 20px 15px;
-
     border-top: 4px solid #D4AF37;
 }
 
 .footer-title {
     color: #D4AF37;
-
     font-size: 19px;
-
     font-weight: bold;
-
     margin-bottom: 7px;
 }
 
 .footer > p {
     font-size: 13px;
+    line-height: 1.6;
 }
 
 .footer-links {
     margin: 15px auto;
-
     max-width: 900px;
-
     display: flex;
-
     justify-content: center;
-
     flex-wrap: wrap;
-
     gap: 8px;
 }
 
 .footer-links a {
     color: #FFF8E7;
-
     text-decoration: none;
-
     font-size: 13px;
 }
 
@@ -337,33 +293,65 @@ body {
 
 .copyright {
     color: #D4AF37;
-
     margin-top: 10px;
 }
-
-
 @media (max-width: 1000px) {
-
     .navbar {
         flex-direction: column;
     }
 
-    .card-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 600px) {
-
-    .card-container {
-        grid-template-columns: 1fr;
+    .card-container,
+    .spirituality-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .hero h1 {
-        font-size: 35px;
+        font-size: 40px;
+    }
+}
+@media (max-width: 600px) {
+    .card-container,
+    .spirituality-container {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        min-height: 260px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
     }
 
     .intro h2 {
         font-size: 26px;
+    }
+
+    .navbar {
+        padding: 12px 15px;
+    }
+
+    .logo {
+        font-size: 17px;
+        white-space: normal;
+        text-align: center;
+    }
+
+    .navbar nav a {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .heritage-card img,
+    .spirituality-card img,
+    .religion-card img,
+    .card-container img,
+    .spirituality-container img {
+        height: 220px;
+    }
+
+    .quote {
+        margin-left: 15px;
+        margin-right: 15px;
     }
 }
