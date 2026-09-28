@@ -1,0 +1,85 @@
+.container {
+    background-color: #FFF8E7;
+    height: 550px;
+    width: 700px;
+     margin: 30px 60px;
+     border-radius: 10px;
+    }
+.btn-size{
+    font-size: 20px;
+}
+.text-size-h1{
+    font-size: 70px;
+}
+.hero-img{
+    width: 100%;
+    height: 500px;
+}
+.img{
+    display: block;
+    position: relative;
+}
+.category{
+    font-size: 50px;
+    color: #D4AF37;
+    position: absolute;
+    top:70px;
+    left:100px
+
+}
+.text-p{
+margin: 10px;
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.box{
+    background-color: #D4AF37;
+    height: 100px;
+    width: 200px;
+    margin:60px 10px;
+    border-radius:10px;
+    
+}
+.b{
+    font-size: 30px;
+   margin: 20px 20px;
+}
+.box-text{
+   margin: 10px 20px;
+}
+.big-container{
+    display: flex;
+}
+.img-box{
+    margin-top: 10px;
+    border-radius: 20px;
+    height: 550px;
+}
+.img-inner-box{
+background-color: #FFF8E7;
+height: 150px;
+width: 230px;
+border-radius: 30px;
+}
+.img-box-music{
+    display: block;
+    position: relative;
+}
+.category-music{
+    font-size: 50px;
+    color: #D4AF37;
+    position: absolute;
+    top:30px;
+    left:20px
+}
+.spark-text{
+    margin: 25px 20px;
+    color:  #3E2723;
+}
+.spark-p{
+    margin: 5px 20px;
+    color: #3E2723;
+}
