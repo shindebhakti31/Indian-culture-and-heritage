@@ -112,3 +112,12 @@ margin: 0px 10px;
     border-radius: 20px;
     margin: 20px 30px;
 }
+.bottom-container{
+    background-color: #3E2723;
+    height: 400px;
+    width: 100%;
+    border:3px solid #D4AF37 ;
+    
+}
+
+

@@ -39,3 +39,8 @@ Indian culture and heritage represent the unity and diversity of India. While di
 
 ---
 
+<a href="https://github.com/shrutitarare07/Indian-culture-and-heritage/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=shrutitarare07/Indian-culture-and-heritage" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
