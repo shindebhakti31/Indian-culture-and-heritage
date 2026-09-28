@@ -31,6 +31,7 @@ img {
     display: block;
     width: 100%;
 }
+
 .navbar {
     width: 100%;
     min-height: 82px;
@@ -88,6 +89,7 @@ img {
 .nav-links a:hover {
     color: var(--saffron);
 }
+
 .hero {
     min-height: 570px;
     position: relative;
@@ -169,6 +171,7 @@ img {
     color: var(--brown);
     transform: translateY(-3px);
 }
+
 .section-label {
     display: block;
     color: var(--saffron);
@@ -213,6 +216,7 @@ img {
     font-size: 14px;
     color: #766258;
 }
+
 .intro-section {
     padding: 85px 8%;
     text-align: center;
@@ -226,6 +230,7 @@ img {
     font-size: 15px;
     line-height: 2;
 }
+main
 .festivals-section {
     padding: 80px 6%;
     background: var(--light-cream);
@@ -327,6 +332,7 @@ img {
     color: var(--saffron);
     gap: 15px;
 }
+main
 .details-section {
     padding: 85px 7%;
     background: var(--cream);
@@ -362,6 +368,7 @@ img {
     font-size: 13px;
     line-height: 1.9;
 }
+main
 .quote-section {
     background: var(--brown);
     padding: 75px 8%;
@@ -388,6 +395,7 @@ img {
     font-size: 12px;
     letter-spacing: 1px;
 }
+
 .footer {
     background: #291914;
     color: var(--cream);
@@ -452,6 +460,7 @@ img {
     color: #B9A797;
     font-size: 11px;
 }
+main
 @media (max-width: 1100px) {
     .navbar {
         flex-direction: column;
@@ -466,6 +475,7 @@ img {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
+main
 @media (max-width: 800px) {
     .festival-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -489,6 +499,7 @@ img {
         min-height: 480px;
     }
 }
+
 @media (max-width: 500px) {
     .navbar {
         padding: 20px 4%;
