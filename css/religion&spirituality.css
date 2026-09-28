@@ -144,7 +144,7 @@ body {
 }
 .heritage-card,
 .spirituality-card,
-.religion-card {
+ .religion-card{
     background: #FFFFFF;
     border: 1px solid #D4AF37;
     border-radius: 10px;
@@ -166,18 +166,11 @@ body {
     box-shadow: 0 9px 20px rgba(62, 39, 35, 0.18);
     border-color: #D97706;
 }
-.heritage-card img,
-.spirituality-card img,
-.religion-card img,
-.card-container img,
-.spirituality-container img {
-    display: block;
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 7px;
-    margin: 0 auto 12px;
+
+.card-image{
+    height: 500px;
+    width: 700px;
+    border-radius: 10px;
 }
 .card-number {
     color: #D4AF37;
