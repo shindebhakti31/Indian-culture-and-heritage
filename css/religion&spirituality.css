@@ -7,7 +7,6 @@
 html {
     scroll-behavior: smooth;
 }
-
 body {
     font-family: Georgia, "Times New Roman", serif;
     background: #FFF8E7;
@@ -55,7 +54,6 @@ body {
 .navbar nav a:hover {
     background: #D97706;
 }
-
 .hero {
     min-height: 320px;
     background:
@@ -129,6 +127,7 @@ body {
     font-size: 15px;
     line-height: 1.6;
 }
+
 .heritage-section,
 .spirituality-section {
     padding: 10px 6% 45px;
@@ -309,6 +308,7 @@ body {
         font-size: 40px;
     }
 }
+
 @media (max-width: 600px) {
     .card-container,
     .spirituality-container {
