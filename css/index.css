@@ -1,0 +1,120 @@
+ .eyebrow {
+     display: inline-block;
+     padding: 8px 14px;
+     margin: 10px 15px;
+
+ }
+
+ .highlight {
+     color: #D4AF37;
+ }
+
+ .btn-active {
+     margin: 30px 60px;
+ }
+
+ .btn-size {
+     font-size: 70px;
+
+ }
+
+ .container {
+     height: 550px;
+     width: 700px;
+     background-color: #3E2723;
+     margin: 30px 60px;
+     border-radius: 10px;
+     border: 3px solid #D4AF37;
+    
+ }
+
+ .intro {
+     color: #FFF8E7;
+     margin: 10px 15px;
+ }
+
+ .population-card {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     padding: 5px;
+  }
+
+ .population-text {
+     background-color:#FFF8E7; 
+     color: #D4AF37;
+     height: 100px;
+     width: 200px;
+     border-radius: 10px;
+     margin: 20px;
+     font-size: 30px;
+ }
+ .small-container{
+    background-color: #FFF8E7;
+    height: 200px;
+    width: 200px;
+    border: 0.5px solid #D4AF37;
+    box-shadow: 0px 0px 15px 1px  #D4AF37;
+  margin: 30px 60px;
+    border-radius: 5px;
+ }
+.a{
+    display: flex;
+}
+.text-space{
+    margin-bottom: 10px;
+}
+.icon-container{
+display: flex;
+justify-content: center;
+}
+.icon-box{
+    background-color: #3E2723;
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    margin: 30px 50px;
+    
+}
+.icon{
+    color: #D4AF37;
+    margin: 30px  20px;
+    font-size:35px;
+}
+.icon-text{
+    color: #FFF8E7;
+    margin: 10px 10px;
+}
+.icon-text-h{
+    color: #D4AF37;
+    margin: 5px 10px;
+}
+.place-container-box{
+    background-color: #FFF8E7;
+    height: 350px;
+    width: 400px;
+    
+    border-radius: 5px;
+    margin: 20px;
+    position: relative;
+}
+.place-container{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+   
+}
+.taj-mahal{
+    width: 399px;
+    height: 300px;
+    border-radius: 5px;
+}
+.taj-mahal:hover{
+    box-shadow: 0px 0px 15px 1px  #804200; 
+}
+.map-heading{
+  margin-bottom:10px;
+}
+
+

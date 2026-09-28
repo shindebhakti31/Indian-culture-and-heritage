@@ -16,7 +16,6 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
 body {
     font-family: 'Poppins', sans-serif;
     background: var(--cream);
@@ -46,7 +45,6 @@ img {
     position: relative;
     z-index: 10;
 }
-
 .logo {
     display: flex;
     align-items: center;
@@ -58,18 +56,15 @@ img {
     line-height: 1.4;
     flex-shrink: 0;
 }
-
 .logo small {
     display: block;
     font-size: 12px;
     letter-spacing: 4px;
 }
-
 .logo-icon {
     font-size: 32px;
     color: var(--gold);
 }
-
 .nav-links {
     display: flex;
     align-items: center;
@@ -77,7 +72,6 @@ img {
     gap: 7px;
     flex-wrap: wrap;
 }
-
 .nav-links a {
     color: var(--cream);
     font-size: 12px;
@@ -92,7 +86,6 @@ img {
     color: var(--gold);
     background: rgba(217, 119, 6, 0.15);
 }
-
 .nav-links a:hover {
     color: var(--saffron);
 }
@@ -107,7 +100,6 @@ img {
     overflow: hidden;
     background: var(--brown);
 }
-
 .hero-bg {
     position: absolute;
     inset: 0;
@@ -116,7 +108,6 @@ img {
     object-fit: cover;
     object-position: center;
 }
-
 .hero-overlay {
     position: absolute;
     inset: 0;
@@ -127,7 +118,6 @@ img {
         rgba(30, 16, 10, 0.82)
     );
 }
-
 .hero-content {
     position: relative;
     z-index: 2;
@@ -135,7 +125,6 @@ img {
     padding: 70px 25px;
     color: var(--cream);
 }
-
 .hero-label {
     display: inline-block;
     color: var(--gold);
@@ -145,7 +134,6 @@ img {
     text-transform: uppercase;
     margin-bottom: 18px;
 }
-
 .hero h1 {
     font-family: 'Cinzel', serif;
     font-size: clamp(38px, 6vw, 76px);
@@ -154,21 +142,18 @@ img {
     margin-bottom: 15px;
     text-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
-
 .title-decoration {
     color: var(--saffron);
     font-size: 18px;
     margin: 18px 0;
     letter-spacing: 4px;
 }
-
 .hero-content p {
     max-width: 670px;
     margin: 0 auto 32px;
     font-size: 16px;
     color: var(--cream);
 }
-
 .hero-btn {
     display: inline-block;
     padding: 14px 30px;
@@ -181,7 +166,6 @@ img {
     letter-spacing: 1px;
     transition: 0.3s ease;
 }
-
 .hero-btn:hover {
     background: var(--gold);
     color: var(--brown);
@@ -197,14 +181,12 @@ img {
     text-transform: uppercase;
     margin-bottom: 10px;
 }
-
 .section-heading {
     text-align: center;
     max-width: 750px;
     margin: 0 auto 45px;
     padding: 0 20px;
 }
-
 .section-heading h2,
 .intro-section h2 {
     font-family: 'Cinzel', serif;
@@ -212,7 +194,6 @@ img {
     color: var(--brown);
     line-height: 1.4;
 }
-
 .gold-line {
     width: 85px;
     height: 3px;
@@ -220,7 +201,6 @@ img {
     margin: 20px auto;
     position: relative;
 }
-
 .gold-line::after {
     content: "✦";
     position: absolute;
@@ -232,7 +212,6 @@ img {
     padding: 0 10px;
     font-size: 16px;
 }
-
 .section-heading > p {
     font-size: 14px;
     color: #766258;
@@ -244,7 +223,6 @@ img {
     max-width: 1100px;
     margin: auto;
 }
-
 .intro-section > p {
     max-width: 850px;
     margin: 25px auto 0;
@@ -252,14 +230,13 @@ img {
     font-size: 15px;
     line-height: 2;
 }
-
+main
 .festivals-section {
     padding: 80px 6%;
     background: var(--light-cream);
     border-top: 1px solid rgba(212, 175, 55, 0.35);
     border-bottom: 1px solid rgba(212, 175, 55, 0.35);
 }
-
 .festival-grid {
     max-width: 1250px;
     margin: auto;
@@ -267,7 +244,6 @@ img {
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 28px;
 }
-
 .festival-card {
     background: white;
     border: 1px solid rgba(212, 175, 55, 0.45);
@@ -276,19 +252,16 @@ img {
     box-shadow: var(--shadow);
     transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
-
 .festival-card:hover {
     transform: translateY(-9px);
     box-shadow: 0 16px 35px rgba(62, 39, 35, 0.20);
 }
-
 .card-image {
     height: 220px;
     position: relative;
     overflow: hidden;
     background: #E7D5B2;
 }
-
 .card-image img {
     width: 100%;
     height: 100%;
@@ -299,7 +272,6 @@ img {
 .festival-card:hover .card-image img {
     transform: scale(1.08);
 }
-
 .festival-number {
     position: absolute;
     top: 14px;
@@ -316,11 +288,9 @@ img {
     font-family: 'Cinzel', serif;
     font-size: 13px;
 }
-
 .card-content {
     padding: 25px 22px;
 }
-
 .festival-tag {
     display: inline-block;
     color: var(--saffron);
@@ -330,7 +300,6 @@ img {
     letter-spacing: 1px;
     margin-bottom: 9px;
 }
-
 .card-content h3 {
     font-family: 'Cinzel', serif;
     font-size: 21px;
@@ -338,14 +307,12 @@ img {
     margin-bottom: 13px;
     line-height: 1.4;
 }
-
 .card-content p {
     font-size: 12px;
     color: #766258;
     line-height: 1.9;
     margin-bottom: 20px;
 }
-
 .read-more {
     display: inline-flex;
     align-items: center;
@@ -357,22 +324,19 @@ img {
     padding-bottom: 4px;
     transition: 0.3s ease;
 }
-
 .read-more span {
     color: var(--saffron);
     font-size: 18px;
 }
-
 .read-more:hover {
     color: var(--saffron);
     gap: 15px;
 }
-
+main
 .details-section {
     padding: 85px 7%;
     background: var(--cream);
 }
-
 .details-grid {
     max-width: 1200px;
     margin: auto;
@@ -380,7 +344,6 @@ img {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 22px;
 }
-
 .detail-box {
     padding: 28px 30px;
     background: white;
@@ -390,25 +353,22 @@ img {
     transition: 0.3s ease;
     scroll-margin-top: 25px;
 }
-
 .detail-box:hover {
     border-left-color: var(--saffron);
     transform: translateY(-4px);
 }
-
 .detail-box h3 {
     font-family: 'Cinzel', serif;
     color: var(--brown);
     font-size: 20px;
     margin-bottom: 12px;
 }
-
 .detail-box p {
     color: #766258;
     font-size: 13px;
     line-height: 1.9;
 }
-
+main
 .quote-section {
     background: var(--brown);
     padding: 75px 8%;
@@ -416,14 +376,12 @@ img {
     border-top: 3px solid var(--gold);
     border-bottom: 3px solid var(--gold);
 }
-
 .quote-symbol {
     color: var(--gold);
     font-family: Georgia, serif;
     font-size: 65px;
     line-height: 1;
 }
-
 .quote-section p {
     max-width: 850px;
     margin: 15px auto 20px;
@@ -432,7 +390,6 @@ img {
     font-size: clamp(20px, 3vw, 32px);
     line-height: 1.6;
 }
-
 .quote-section span {
     color: var(--gold);
     font-size: 12px;
@@ -444,7 +401,6 @@ img {
     color: var(--cream);
     padding: 65px 7% 0;
 }
-
 .footer-content {
     max-width: 1250px;
     margin: auto;
@@ -453,14 +409,12 @@ img {
     gap: 55px;
     padding-bottom: 45px;
 }
-
 .footer-brand h2 {
     color: var(--gold);
     font-family: 'Cinzel', serif;
     font-size: 20px;
     margin-bottom: 20px;
 }
-
 .footer-brand p,
 .footer-note p {
     color: #D8C6B4;
@@ -476,25 +430,21 @@ img {
     font-size: 17px;
     margin-bottom: 18px;
 }
-
 .footer-links {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
 }
-
 .footer-links a {
     color: #D8C6B4;
     font-size: 12px;
     transition: 0.3s ease;
 }
-
 .footer-links a:hover {
     color: var(--saffron);
     padding-left: 5px;
 }
-
 .footer-bottom {
     border-top: 1px solid rgba(212, 175, 55, 0.3);
     max-width: 1250px;
@@ -506,12 +456,11 @@ img {
     gap: 15px;
     flex-wrap: wrap;
 }
-
 .footer-bottom p {
     color: #B9A797;
     font-size: 11px;
 }
-
+main
 @media (max-width: 1100px) {
     .navbar {
         flex-direction: column;
@@ -526,7 +475,7 @@ img {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
-
+main
 @media (max-width: 800px) {
     .festival-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
