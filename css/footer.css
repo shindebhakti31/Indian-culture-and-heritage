@@ -3,7 +3,6 @@
     color: var(--cream);
     padding: 65px 7% 0;
 }
-
 .footer-content {
     max-width: 1250px;
     margin: auto;
@@ -12,14 +11,12 @@
     gap: 55px;
     padding-bottom: 45px;
 }
-
 .footer-brand h2 {
     color: var(--gold);
     font-family: 'Cinzel', serif;
     font-size: 20px;
     margin-bottom: 20px;
 }
-
 .footer-brand p,
 .footer-note p {
     color: #D8C6B4;
@@ -35,25 +32,21 @@
     font-size: 17px;
     margin-bottom: 18px;
 }
-
 .footer-links {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
 }
-
 .footer-links a {
     color: #D8C6B4;
     font-size: 12px;
     transition: 0.3s ease;
 }
-
 .footer-links a:hover {
     color: var(--saffron);
     padding-left: 5px;
 }
-
 .footer-bottom {
     border-top: 1px solid rgba(212, 175, 55, 0.3);
     max-width: 1250px;
@@ -65,11 +58,7 @@
     gap: 15px;
     flex-wrap: wrap;
 }
-
 .footer-bottom p {
     color: #B9A797;
     font-size: 11px;
-}
-.footer-heading-color{
-color:#D4AF37;
 }
