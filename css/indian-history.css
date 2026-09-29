@@ -1,4 +1,115 @@
-.hero-img{
-    width: 100%;
-    height: 550px;
-}
+.hero {
+            min-height: 560px;
+            display: flex;
+            align-items: flex-end;
+            color: #fff;
+            background:
+                linear-gradient(90deg, rgba(12, 27, 20, 0.83), rgba(12, 27, 20, 0.17) 82%),
+                linear-gradient(0deg, rgba(12, 27, 20, 0.58), transparent 70%),
+                url("https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=2200&q=85") center 48% / cover no-repeat;
+        }
+         .hero-content {
+            padding-top: 100px;
+            padding-bottom: 54px;
+        }
+       .eyebrow {
+            margin: 0 0 14px;
+            color: #f4c578;
+            font-size: 0.76rem;
+            font-weight: 800;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+        }
+         .hero-copy {
+            max-width: 610px;
+            margin: 20px 0 0;
+            color: rgba(255, 255, 255, .88);
+            font-size: 1.08rem;
+        }
+
+        .hero-caption {
+            margin: 26px 0 0;
+            color: rgba(255, 255, 255, .72);
+            font-size: 0.78rem;
+        }
+         .container {
+            width: min(1160px, calc(100% - 40px));
+            margin: 0 auto;
+        }
+
+       #heading{
+      font-family: var(--serif);
+      font-size: 90px;
+      color: #FFF8E7;
+      }
+      .white-box{
+        height: 200px;
+        width: 1200px;
+       margin: 30px  160px;
+       margin-top: 30px;
+       margin-bottom: 30px;
+       margin-left: 160px;
+       margin-right: 0px;
+     
+      }
+      .white-box-title{
+        font-size: 50px;
+        margin: 10px;
+      }
+      .white-box-container{
+        display: flex;
+        justify-content: center;
+      }
+      .white-box-p{
+        margin: 50px 0px;
+        margin-right: 30px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+        margin-left: 10px;
+        margin-right: 50px;
+        
+      }.btn-container{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+      }
+      .btn-text{
+        margin: 10px;
+      }
+      .btn-text:hover{
+          box-shadow: 0px 0px 5px 1px  #804200;
+      }
+      .main-heading{
+        color: #804200;
+      }
+      .img-box{
+        height: 450px;
+        width: 350px;
+        background-color: #fff;
+        margin: 10px 40px;
+        border-radius: 5px;
+        border: 3px solid #D4AF37;
+      }
+      .mohenjo-daro{
+        width: 345px;
+        border-radius: 3px 3px 0px 0px;
+      }
+      .history-heading{
+        margin: 20px;
+      }
+      .history-container{
+        display: flex;
+        justify-content: center;
+      }
+      .taj-mahal{
+         width: 345px;
+         border-radius: 3px 3px 0px 0px;
+
+      }
+      .mourya-gupta{
+         width: 345px;
+         border-radius: 3px 3px 0px 0px;
+
+      }
+     
+
