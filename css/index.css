@@ -25,7 +25,7 @@
      margin: 30px 60px;
      border-radius: 10px;
      border: 3px solid #D4AF37;
-    
+
  }
 
  .intro {
@@ -39,10 +39,10 @@
      justify-content: space-around;
      align-items: center;
      padding: 5px;
-  }
+ }
 
  .population-text {
-     background-color:#FFF8E7; 
+     background-color: #FFF8E7;
      color: #D4AF37;
      height: 100px;
      width: 200px;
@@ -50,71 +50,207 @@
      margin: 20px;
      font-size: 30px;
  }
- .small-container{
-    background-color: #FFF8E7;
-    height: 200px;
-    width: 200px;
-    border: 0.5px solid #D4AF37;
-    box-shadow: 0px 0px 15px 1px  #D4AF37;
-  margin: 30px 60px;
-    border-radius: 5px;
+
+ .small-container {
+     background-color: #FFF8E7;
+     height: 200px;
+     width: 200px;
+     border: 0.5px solid #D4AF37;
+     box-shadow: 0px 0px 15px 1px #D4AF37;
+     margin: 30px 60px;
+     border-radius: 5px;
  }
-.a{
-    display: flex;
-}
-.text-space{
-    margin-bottom: 10px;
-}
-.icon-container{
-display: flex;
-justify-content: center;
-}
-.icon-box{
-    background-color: #3E2723;
-    height: 250px;
-    width: 250px;
-    border-radius: 15px;
-    margin: 30px 50px;
-    
-}
-.icon{
-    color: #D4AF37;
-    margin: 30px  20px;
-    font-size:35px;
-}
-.icon-text{
-    color: #FFF8E7;
-    margin: 10px 10px;
-}
-.icon-text-h{
-    color: #D4AF37;
-    margin: 5px 10px;
-}
-.place-container-box{
-    background-color: #FFF8E7;
-    height: 350px;
-    width: 400px;
-    
-    border-radius: 5px;
-    margin: 20px;
-    position: relative;
-}
-.place-container{
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-   
-}
-.taj-mahal{
-    width: 399px;
-    height: 300px;
-    border-radius: 5px;
-}
-.taj-mahal:hover{
-    box-shadow: 0px 0px 15px 1px  #804200;
-} 
-.map-heading{
-  margin-bottom:10px;
-}
 
+ .a {
+     display: flex;
+ }
 
+ .text-space {
+     margin-bottom: 10px;
+ }
+
+ .icon-container {
+     display: flex;
+     justify-content: center;
+ }
+
+ .icon-box {
+     background-color: #3E2723;
+     height: 250px;
+     width: 250px;
+     border-radius: 15px;
+     margin: 30px 50px;
+
+ }
+
+ .icon {
+     color: #D4AF37;
+     margin: 30px 20px;
+     font-size: 35px;
+ }
+
+ .icon-text {
+     color: #FFF8E7;
+     margin: 10px 10px;
+ }
+
+ .icon-text-h {
+     color: #D4AF37;
+     margin: 5px 10px;
+ }
+
+ .place-container-box {
+     background-color: #FFF8E7;
+     height: 350px;
+     width: 400px;
+
+     border-radius: 5px;
+     margin: 20px;
+     position: relative;
+ }
+
+ .place-container {
+     display: flex;
+     justify-content: center;
+     margin: 10px;
+
+ }
+
+ .taj-mahal {
+     width: 399px;
+     height: 300px;
+     border-radius: 5px;
+ }
+
+ .taj-mahal:hover {
+     box-shadow: 0px 0px 15px 1px #804200;
+ }
+
+ .map-heading {
+     margin-bottom: 10px;
+ }
+
+ @media (max-width: 1100px) {
+     .navbar {
+         flex-direction: column;
+         gap: 18px;
+     }
+
+     .navbar nav {
+         justify-content: center;
+     }
+
+     .a {
+         flex-wrap: wrap;
+         justify-content: center;
+     }
+ }
+
+ @media (max-width: 800px) {
+     .container {
+         width: calc(100% - 40px);
+         height: auto;
+         min-height: 480px;
+         margin: 24px auto;
+     }
+
+     .btn-size {
+         font-size: 52px;
+     }
+
+     .population-text {
+         flex: 1 1 140px;
+         width: auto;
+         margin: 8px;
+         font-size: 24px;
+     }
+
+     .icon-container,
+     .place-container {
+         flex-wrap: wrap;
+     }
+
+     .icon-box {
+         flex: 1 1 250px;
+         max-width: 350px;
+         margin: 16px;
+     }
+
+     .place-container-box {
+         flex: 1 1 320px;
+         max-width: 400px;
+     }
+
+     .taj-mahal {
+         width: 100%;
+         object-fit: cover;
+     }
+ }
+
+ @media (max-width: 500px) {
+     .navbar {
+         padding: 20px 4%;
+     }
+
+     .logo {
+         font-size: 14px;
+     }
+
+     .navbar nav {
+         gap: 2px;
+     }
+
+     .navbar nav a {
+         font-size: 11px;
+         padding: 7px;
+     }
+
+     .container {
+         min-height: 0;
+         padding: 18px 12px;
+     }
+
+     .btn-size {
+         font-size: 36px;
+     }
+
+     .population-card {
+         flex-wrap: wrap;
+     }
+
+     .population-text {
+         flex-basis: 100%;
+         height: auto;
+         min-height: 76px;
+         padding: 10px;
+         font-size: 22px;
+     }
+
+     .small-container {
+         width: calc(100% - 40px);
+         margin: 12px 20px;
+     }
+
+     .icon-box,
+     .place-container-box {
+         flex-basis: 100%;
+         width: calc(100% - 32px);
+         max-width: none;
+         margin: 12px 16px;
+     }
+
+     .icon-box {
+         height: auto;
+         min-height: 230px;
+         padding-bottom: 18px;
+     }
+
+     .taj-mahal {
+         height: 260px;
+     }
+
+     .map-heading {
+         padding: 0 16px;
+         font-size: 20px;
+     }
+ }
